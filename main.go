@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"helloworld/github.com/frsarmientop/godesde0/ejercicios"
+	"helloworld/github.com/frsarmientop/godesde0/ejercicios/iteraciones"
 )
 
 func main() {
@@ -26,7 +25,9 @@ func main() {
 		fmt.Printf("%s \n", os)
 	}
 	*/
-	numero, texto := ejercicios.ConvNumerico("fff")
+	/*numero, texto := ejercicios.ConvNumerico("fff")
 	fmt.Println(numero)
-	fmt.Println(texto)
+	fmt.Println(texto)*/
+	//teclado.IngresoNumeros()
+	iteraciones.Iterar()
 }
